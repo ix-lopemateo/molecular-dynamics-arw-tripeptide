@@ -51,6 +51,7 @@ The workflow includes:
 ---
 
 ## Repository Structure
+```
 arw-md-simulation-298K-400K/
 │
 ├── 298K/
@@ -82,5 +83,5 @@ arw-md-simulation-298K-400K/
 │ └── ramachandran.ipynb
 │
 └── final_report.pdf # Final report
-
+```
 
