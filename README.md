@@ -51,4 +51,36 @@ The workflow includes:
 ---
 
 ## Repository Structure
+arw-md-simulation-298K-400K/
+│
+├── 298K/
+│ ├── 1-build/ # System preparation (topology, solvation)
+│ ├── 2-equilibration/ # NVT equilibration
+│ ├── 3-run/ # Production simulation
+│ └── 4-analysis/ # Analysis results (.xvg)
+│
+├── 400K/
+│ ├── 1-build/
+│ ├── 2-equilibration/
+│ ├── 3-run/
+│ └── 4-analysis/
+│
+├── extended_298K/
+│ ├── 1-build/
+│ ├── 2-equilibration/
+│ ├── 3-run/
+│ └── 4-analysis/
+│
+├── notebooks/ # Python notebooks for analysis
+│ ├── analysis_energy.ipynb
+│ ├── analysis_temperature.ipynb
+│ ├── analysis_radius_of_gyration.ipynb
+│ ├── analysis_distances.ipynb
+│ ├── analysis_angles.ipynb
+│ ├── analysis_dihedral_angles.ipynb
+│ ├── analysis_velocities.ipynb
+│ └── ramachandran.ipynb
+│
+└── final_report.pdf # Final report
+
 
